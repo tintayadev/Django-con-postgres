@@ -234,8 +234,10 @@ http://localhost:8000
 
 4. Deberías ver las vistas que creaste (clientes, películas y reservaciones) al navegar por las rutas correspondientes.
 
-
-
+```
+http://127.0.0.1:8000/reservaciones/
+```
+![img3](img/reservaciones.png)
 **Nota:**
 
 * Asegúrate de haber instalado las dependencias necesarias para Django y DBeaver.
