@@ -32,6 +32,9 @@ django-admin startproject cine_project
 
 **2. Configurar la base de datos en Django:**
 
+> [NOTA]
+> Recuerda instalar el adaptador de bases de datos de python [psycopg](https://pypi.org/project/psycopg2/)
+
 1. Abre el archivo `settings.py` de tu proyecto Django (cine_project) en un editor de texto.
 2. Busca la sección `DATABASES`.
 3. Edita la configuración para que coincida con la información de tu base de datos PostgreSQL. Deberás especificar el nombre de la base de datos, el usuario, la contraseña, el host y el puerto.
@@ -52,6 +55,9 @@ DATABASES = {
 4. Guarda el archivo `settings.py`.
 
 **3. Crear modelos de Django:**
+
+> [NOTA]
+> No olvides crear la aplicacion `cine` con `python manage.py startapp cine`
 
 1. En la terminal, navega hasta el directorio de tu proyecto Django (cine_project).
 2. Ejecuta el siguiente comando para crear los modelos a partir de las tablas existentes en PostgreSQL:
